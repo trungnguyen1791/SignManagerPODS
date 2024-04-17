@@ -17,16 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SignManager"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of LivenessUtility."
-  spec.homepage     = "https://github.com/trungnguyen1791/LivenessUtility"
+  spec.summary      = "A short description of SignManager."
+  spec.homepage     = "https://github.com/trungnguyen1791/SignManagerPODS"
   spec.author           = { 'My Name' => 'myemail@example.com' }
   spec.license      = "MIT"
   
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessUtility/releases/download/1.0.14/LivenessUtility.zip' }
-  spec.vendored_frameworks = 'LivenessUtility/LivenessUtility.xcframework'
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/SignManagerPODS/releases/download/1.0.0/SignManager.zip' }
+  spec.vendored_frameworks = 'SignManager/SignManager.xcframework'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
