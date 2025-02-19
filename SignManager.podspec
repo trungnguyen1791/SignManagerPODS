@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SignManager"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "A short description of SignManager."
   spec.homepage     = "https://github.com/trungnguyen1791/SignManagerPODS"
   spec.author           = { 'My Name' => 'myemail@example.com' }
